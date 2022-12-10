@@ -88,6 +88,8 @@ production:
   username: mysite
   password: <%= ENV['MYSITE_DATABASE_PASSWORD'] %>
 
+  
+
 
 
 #  production:
