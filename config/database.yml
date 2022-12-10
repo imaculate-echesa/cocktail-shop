@@ -124,8 +124,8 @@ production:
 #   <<: *default
 #   database: db/test.sqlite3
 
-# production:
-#   # <<: *default
-#   # database: db/production.sqlite3
-#   url: <%= ENV["DATABASE_URL"] %>
+production:
+  # <<: *default
+  # database: db/production.sqlite3
+  url: <%= ENV["DATABASE_URL"] %>
 
